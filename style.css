@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0%;
+    border: 0%;
+    text-decoration: none;
+    font-family: 'Raleway';
+    word-break:keep-all;
+}
+
+
+:root {
+    --cor-primaria: #000;
+    --cor-secundaria: #ffffff;
+    --cor-terciaria: #EF4949;
+    --cor-quartenaria: #23CF2A;
+    --cor-quinaria: #D1F5D2;
+}
+
+.main1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+
+
+}
+
+.titulo_1 {
+
+    font-size: 30px;
+
+}
+
+
+
+.titulo_2 {
+
+    font-size: 20px;
+
+}
+
+.strong_1{
+
+    color: var(--cor-terciaria);
+
+}
+
+.strong_2{
+
+    color: var(--cor-quartenaria);
+
+}
+
+.div_nav {
+
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+
+}
+
+
+.nav_1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.nav_cidades1 {
+    
+    border-style: solid;
+    border-radius: 12px;
+    border-color: var(--cor-terciaria);
+    padding: 6px 20px 6px 20px;
+    font-size: 18px;
+    margin-top: 5%;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+}
+
+.nav_cidades2 {
+    
+    border-style: solid;
+    border-radius: 12px;
+    border-color: var(--cor-quartenaria);
+    padding: 6px 20px 6px 20px;
+    font-size: 18px;
+    margin-top: 5%;
+    color: var(--cor-primaria);
+    background-color: var(--cor-quartenaria);
+
+}
+
+.div_imagens{
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.div_imagens_texto{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+font-size: 14px;
+margin: 1%;
+padding-top: 3%;
+}
+
+.imagem{
+    padding-bottom: 10px;
+    max-width: 60px;
+
+}
+
+footer {
+
+    font-size: 12px;
+    background-color: var(--cor-quinaria);
+    padding: 4%;
+    margin-left: 20px;
+
+}
